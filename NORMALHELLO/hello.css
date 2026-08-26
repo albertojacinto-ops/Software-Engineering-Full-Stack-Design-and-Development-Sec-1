@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+    p {
+        color: navy;
+        margin-left: 30xp;
+
+    }
+    hi {
+        color: red;
+        margin-right: 20px;
+
+    }
+}
