@@ -3,24 +3,24 @@
 
 }
 
-.myflexboxrow {
+.myflexboxRow {
     display: flex;
     flex-wrap: wrap;
 }
 
-.myflexboxcolumn {
+.myflexboxColumn {
     flex: 25%;
     padding: 20px;
 }
 
 @media screen and (max-width: 992px){
-    .myflexboxcolumn {
+    .myflexboxColumn {
         flex: 50%
     }
 }
 
 @media screen and (max-width: 600px){
-    .myflexboxrow {
+    .myflexboxRow {
         flex-direction: column;
     }
 }
